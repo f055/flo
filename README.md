@@ -276,84 +276,84 @@ Oszczędność dla klienta: ~80-90%
   - Team communication
 
 
-  # KROK 2
+# KROK 2
 
-  Analiza na podstawie domniemywań (halucynacji) Claude'a w pliku KROK2.md
-
-
-  # KROK 3
-
-  Brak dostępu do aplikacji, analiza na podstawie domniemywań (halucynacji) Claude'a w pliku KROK3.md
+Analiza na podstawie domniemywań (halucynacji) Claude'a w pliku KROK2.md
 
 
-  # KROK 4
+# KROK 3
 
-  Nowe funkcje:
+Brak dostępu do aplikacji, analiza na podstawie domniemywań (halucynacji) Claude'a w pliku KROK3.md
 
-  1. Content autopilot - 
-     - jako personal brand manager (influencer) chcę aby artykuły powstawały i publikowały się automatycznie na podstawie aktualnych trendów w mojej branzy, aby zaoszczędzić mój czas i zawsze być na fali.
 
-     Nowy moduł:
-     - cron/scheduler do automatycznego wywołania workflowu: spr trendów -> generacja treści -> publikacja
+# KROK 4
 
-     Integracje:
-     - wyszukiwanie trendów branzowych, generacja treści, publikacja: istniejący moduł floowe
+Nowe funkcje:
 
-     Stos tech:
-     - obecny stos floowe + moduł cron oparty np. o sktyp nodejs wywoływany przez linuxowy cronjob
+1. Content autopilot - 
+- jako personal brand manager (influencer) chcę aby artykuły powstawały i publikowały się automatycznie na podstawie aktualnych trendów w mojej branzy, aby zaoszczędzić mój czas i zawsze być na fali.
 
-     Ryzyka i wyzwania:
-     - ryzyko puszczenia AI samopas i tworzenia malo wartościowych, nisko jakościowych treści,
-     - wyzwanie stanowi precyzyjne dostrzeganie aktualnych trendów dla danej branzy
+Nowy moduł:
+- cron/scheduler do automatycznego wywołania workflowu: spr trendów -> generacja treści -> publikacja
 
-  2. Community management automation (reakcje na komentarze uzytkowników)
-     - jako content manager chcę aby chatbot odpowiadał za mnie na komentarze uzytkowników, aby zaoszczędzić mój czas i skutecznie skalować community reach
+Integracje:
+- wyszukiwanie trendów branzowych, generacja treści, publikacja: istniejący moduł floowe
 
-     Nowy moduł:
-     - monitorowanie ostatnio opublikowanych postów na social media pod kątem nowych komentarzy,
-     - analizowanie i oznaczenie nowych komentarzy jako przetworzone, decyzja AI czy odpowiadać i w jaki sposób,
-     - publikowanie odpowiedzi na komentarz w social media
+Stos tech:
+- obecny stos floowe + moduł cron oparty np. o sktyp nodejs wywoływany przez linuxowy cronjob
 
-     Integracje:
-     - nowe endpointy z API social mediów
+Ryzyka i wyzwania:
+- ryzyko puszczenia AI samopas i tworzenia malo wartościowych, nisko jakościowych treści,
+- wyzwanie stanowi precyzyjne dostrzeganie aktualnych trendów dla danej branzy
 
-     Stos tech:
-     - obecny stos i connectory social media APIs floowe
+2. Community management automation (reakcje na komentarze uzytkowników)
+- jako content manager chcę aby chatbot odpowiadał za mnie na komentarze uzytkowników, aby zaoszczędzić mój czas i skutecznie skalować community reach
 
-     Ryzyka i wyzwania:
-     - ryzyko pozwolenia uzytkownikom na komentowanie i rozmawianie z chatbotem, który mógłby odpowiadać bzdury lub zostać zmanipulowanym do powiedzenie rzeczy niezgodnych z polityką firmy,
-     - wyzwanie: stworzenie skutecznego i efektywnego system prompta, który zmniejszyłby powyzsze ryzyko
+Nowy moduł:
+- monitorowanie ostatnio opublikowanych postów na social media pod kątem nowych komentarzy,
+- analizowanie i oznaczenie nowych komentarzy jako przetworzone, decyzja AI czy odpowiadać i w jaki sposób,
+- publikowanie odpowiedzi na komentarz w social media
 
-  3. Prepaid Pay-as-you-go (przedpłacona subskrybcja)
-     - jako niezdecydowany uzytkownik chcę wypróbować floowe bez zobowiązań w zakresie przeze mnie określonego budzetu, aby świadomie podjąć decyzję zakupową miesięcznej lub rocznej subskrybcji
+Integracje:
+- nowe endpointy z API social mediów
 
-     Nowy moduł:
-     - licznik prepaid zmniejszający kwotę wraz z wywołaniami funkcji floowe oraz blokowaniem dostępu gdy środki się skończą
-     - formularz do podania kwoty prepaid połączony z platformą płatności
-     - powiadomienia email (oparte na istniejącym systemie emailowym floowe)
+Stos tech:
+- obecny stos i connectory social media APIs floowe
 
-     Integracje:
-     - istniejąca integracja platformy płatności
+Ryzyka i wyzwania:
+- ryzyko pozwolenia uzytkownikom na komentowanie i rozmawianie z chatbotem, który mógłby odpowiadać bzdury lub zostać zmanipulowanym do powiedzenie rzeczy niezgodnych z polityką firmy,
+- wyzwanie: stworzenie skutecznego i efektywnego system prompta, który zmniejszyłby powyzsze ryzyko
 
-     Stos tech:
-     - istniejący stos floowe
+3. Prepaid Pay-as-you-go (przedpłacona subskrybcja)
+- jako niezdecydowany uzytkownik chcę wypróbować floowe bez zobowiązań w zakresie przeze mnie określonego budzetu, aby świadomie podjąć decyzję zakupową miesięcznej lub rocznej subskrybcji
 
-     Ryzyka i wyzwania:
-     - brak
+Nowy moduł:
+- licznik prepaid zmniejszający kwotę wraz z wywołaniami funkcji floowe oraz blokowaniem dostępu gdy środki się skończą
+- formularz do podania kwoty prepaid połączony z platformą płatności
+- powiadomienia email (oparte na istniejącym systemie emailowym floowe)
 
-  4. Automatyczne tłumaczenie treści przed publikacją (flaga jezykowa dla podłączonych kont social)
-     - jako content manager duzej firmy lub brandu chcę te same treści łatwo publikować w róznych krajach, aby dotrzeć do wszystkich moich czytelników/klientów za pomocą jednego contentu
+Integracje:
+- istniejąca integracja platformy płatności
 
-     Nowy moduł:
-     - kazde podpięte konto social media ma zmienna opcję języka, w którym operuje
-     - kazdy nowo publikowany post sprawdza flage języka konta na którym się publikuję i jeśli trzeba to przez publikacją się tłumaczy,
+Stos tech:
+- istniejący stos floowe
 
-     Integracje:
-     - endpot API do dobrego AI do tłumaczeń (Claude, ChatGPT)
+Ryzyka i wyzwania:
+- brak
 
-     Stos tech:
-     - zapewne istniejący stos floowe, jeśli korzysta juz z w/w AI
+4. Automatyczne tłumaczenie treści przed publikacją (flaga jezykowa dla podłączonych kont social)
+- jako content manager duzej firmy lub brandu chcę te same treści łatwo publikować w róznych krajach, aby dotrzeć do wszystkich moich czytelników/klientów za pomocą jednego contentu
 
-     Ryzyka i wyzwania:
-     - ryzyko powstania niejasności w tłumaczonej treści z powodu niuansów językowych lub hermetycznej treści oryginalnej, której nie da się prawidłowo przetłumaczyć automatycznie bez znajomości danej kultury,
-     - wyzwaniem jest zmodelowanie systemu system promptami tak, aby w przypadku wątpliwości upraszczał tłumaczone treści i minimalizował ryzyko błędnych tłumaczeń,
+Nowy moduł:
+- kazde podpięte konto social media ma zmienna opcję języka, w którym operuje
+- kazdy nowo publikowany post sprawdza flage języka konta na którym się publikuję i jeśli trzeba to przez publikacją się tłumaczy,
+
+Integracje:
+- endpot API do dobrego AI do tłumaczeń (Claude, ChatGPT)
+
+Stos tech:
+- zapewne istniejący stos floowe, jeśli korzysta juz z w/w AI
+
+Ryzyka i wyzwania:
+- ryzyko powstania niejasności w tłumaczonej treści z powodu niuansów językowych lub hermetycznej treści oryginalnej, której nie da się prawidłowo przetłumaczyć automatycznie bez znajomości danej kultury,
+- wyzwaniem jest zmodelowanie systemu system promptami tak, aby w przypadku wątpliwości upraszczał tłumaczone treści i minimalizował ryzyko błędnych tłumaczeń,

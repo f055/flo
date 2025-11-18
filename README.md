@@ -1,6 +1,6 @@
 # Analiza Aplikacji Floowe
 
-Data analizy: 2025-11-14
+Data analizy: 2025-11-14, 2025-11-18
 
 ---
 

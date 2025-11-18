@@ -290,7 +290,7 @@ Brak dostępu do aplikacji, analiza na podstawie domniemywań (halucynacji) Clau
 
 Nowe funkcje:
 
-1. Content autopilot - 
+#### 1. Content autopilot
 - jako personal brand manager (influencer) chcę aby artykuły powstawały i publikowały się automatycznie na podstawie aktualnych trendów w mojej branzy, aby zaoszczędzić mój czas i zawsze być na fali.
 
 Nowy moduł:
@@ -306,7 +306,9 @@ Ryzyka i wyzwania:
 - ryzyko puszczenia AI samopas i tworzenia malo wartościowych, nisko jakościowych treści,
 - wyzwanie stanowi precyzyjne dostrzeganie aktualnych trendów dla danej branzy
 
-2. Community management automation (reakcje na komentarze uzytkowników)
+---
+
+#### 2. Community management automation (reakcje na komentarze uzytkowników)
 - jako content manager chcę aby chatbot odpowiadał za mnie na komentarze uzytkowników, aby zaoszczędzić mój czas i skutecznie skalować community reach
 
 Nowy moduł:
@@ -324,7 +326,9 @@ Ryzyka i wyzwania:
 - ryzyko pozwolenia uzytkownikom na komentowanie i rozmawianie z chatbotem, który mógłby odpowiadać bzdury lub zostać zmanipulowanym do powiedzenie rzeczy niezgodnych z polityką firmy,
 - wyzwanie: stworzenie skutecznego i efektywnego system prompta, który zmniejszyłby powyzsze ryzyko
 
-3. Prepaid Pay-as-you-go (przedpłacona subskrybcja)
+---
+
+#### 3. Prepaid Pay-as-you-go (przedpłacona subskrybcja)
 - jako niezdecydowany uzytkownik chcę wypróbować floowe bez zobowiązań w zakresie przeze mnie określonego budzetu, aby świadomie podjąć decyzję zakupową miesięcznej lub rocznej subskrybcji
 
 Nowy moduł:
@@ -341,7 +345,9 @@ Stos tech:
 Ryzyka i wyzwania:
 - brak
 
-4. Automatyczne tłumaczenie treści przed publikacją (flaga jezykowa dla podłączonych kont social)
+---
+
+#### 4. Automatyczne tłumaczenie treści przed publikacją (flaga jezykowa dla podłączonych kont social)
 - jako content manager duzej firmy lub brandu chcę te same treści łatwo publikować w róznych krajach, aby dotrzeć do wszystkich moich czytelników/klientów za pomocą jednego contentu
 
 Nowy moduł:
